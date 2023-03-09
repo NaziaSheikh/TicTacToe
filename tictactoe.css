@@ -1,0 +1,65 @@
+
+
+body{
+   background: #20262E;
+    padding:0;
+    margin:0;
+   }
+   
+
+h1{
+  
+  font-family: 'Lobster', cursive;
+    
+    color: #F99417;
+    text-align: center;
+    text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  
+}
+
+hr {
+    width: 900px;
+    height: 5px;
+    background-color: #F99417;
+   margin-top: 5%;
+    text-align: center;
+}
+
+
+#board {
+    width: 450px;
+    height: 450px;
+    /* background-color: gray; */
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.tile {
+    width: 147px;
+    height: 147px;
+    
+    /* Text */
+    font-size: 150px;
+    color: red;
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+}
+
+.winner {
+    background-color: white;
+    color: #F99417;
+}
+
+
+.horizontal-line {
+    border-bottom: 3px solid #F99417;
+}
+
+.vertical-line {
+    border-right: 3px solid #F99417;
+}
